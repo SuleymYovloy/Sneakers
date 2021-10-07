@@ -1,0 +1,100 @@
+.slider
+	display none!important
+	padding 2.82em 3.75em 2.44em
+	background-color #fff
+
+	+sm-block()
+		display block!important
+	
+	&__content
+		background-color #F4EFE9
+		display flex
+		border-radius: 1.25em
+	
+	&__descr-title
+		font-size 1.1rem
+		font-family: 'Inter'
+		line-height 1.2em
+		font-weight bold
+		margin 0.84em 0 0 1.6em
+
+		+md-block()
+			font-size 1.7rem
+		
+		+xl-block()
+			font-size 2.37rem
+	
+	&__descr-title span
+		color: #8BB43C
+	
+	&__descr-btn
+		font-size 0.8rem
+		font-family 'Inter'
+		font-weight bold
+		text-transform: uppercase
+		color #fff
+		background-color #A5D364
+		border: none
+		width 11em
+		height 2.93em
+		margin: 1.4em 0 1.4em 2.7em
+		border-radius: 6.87em
+		padding 0
+		cursor pointer
+		transition: 0.3s
+
+		+md-block()
+			font-size 1rem
+			width 10em
+			height 2.93em
+			
+		
+		+xl-block()
+			margin: 1.4em 0 0 3.75em
+			
+
+	&__descr-btn:hover
+		-webkit-box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
+		-moz-box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
+		box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
+
+	&__descr-img
+		margin 0.6em 0 0 1em
+	
+	&__bg
+		max-width: 100%
+
+		+md-block()
+			display: block
+
+.owl-prev
+	border: none
+	position: absolute
+	left 8%
+	top: 46%
+	background-color: #fff
+	border-radius: 50%
+	width 2.1875em
+	height: 2.1875em
+
+	+md-block()
+		left 6%
+
+	+lg-block()
+		left: 4%
+
+.owl-next
+	border: none
+	position: absolute
+	right: 8%
+	top: 46%
+	background-color: #fff
+	border-radius: 50%
+	width 2.1875em
+	height: 2.1875em
+
+	+md-block()
+		right 6%
+
+	+lg-block()
+		right 4%
